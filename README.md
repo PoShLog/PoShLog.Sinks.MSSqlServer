@@ -1,6 +1,6 @@
 # PoShLog.Sinks.MSSqlServer
 
-[![psgallery](https://img.shields.io/powershellgallery/v/poshlog.sinks.MSSqlServer.svg)](https://www.powershellgallery.com/packages/PoShLog.Sinks.MSSqlServer) [![PowerShell Gallery](htps://imgshields.io/powershellgallery/p/poshlog.sinks.MSSqlServer?color=blue)](https://www.powershellgallery.com/packages/PoShLog.Sinks.MSSqlServer) [![psgallery](https://img.shields.io/powershllgallerydt/PoShLog.Sinks.MSSqlServer.svg)](https://www.powershellgallery.com/packages/PoShLog.Sinks.MSSqlServer) [![Discord](https://img.shields.io/discord/693754316305072199?color=orange&labe=discord)(https://discord.gg/gGFtbf)
+[![psgallery](https://img.shields.io/powershellgallery/v/poshlog.sinks.MSSqlServer.svg)](https://www.powershellgallery.com/packages/PoShLog.Sinks.MSSqlServer) [![PowerShell Gallery](htps://imgshields.io/powershellgallery/p/poshlog.sinks.MSSqlServer?color=blue)](https://www.powershellgallery.com/packages/PoShLog.Sinks.MSSqlServer) [![psgallery](https://img.shields.io/powershllgallerydt/PoShLog.Sinks.MSSqlServer.svg)](https://www.powershellgallery.com/packages/PoShLog.Sinks.MSSqlServer) [![Discord](https://img.shields.io/discord/693754316305072199?color=orange&label=discord)](https://discord.gg/FVdVxuw)
 
 PoShLog.Sinks.MSSqlServer is extension module for [PoShLog](https://github.com/PoShLog/PoShLog) logging module. Contains sink that writes log messages into MSSQL server databse.
 
@@ -26,6 +26,7 @@ New-Logger |
     Add-SinkMSSqlServer -ConnectionString 'Server=.;Database=dummy;Integrated Security=SSPI;' | 
     Start-Logger
 
+# Your code here
 
 # Don't forget to close the logger
 Close-Logger
@@ -49,4 +50,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Credits
 
+* `Serilog.Sinks.MSSqlServer` - [serilog/serilog-sinks-mssqlserver](https://github.com/serilog/serilog-sinks-mssqlserver)
 * Icon made by [Smashicons](https://smashicons.com/) from [www.flaticon.com](https://www.flaticon.com/).

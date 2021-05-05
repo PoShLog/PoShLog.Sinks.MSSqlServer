@@ -39,6 +39,7 @@ function Add-SinkMSSqlServer {
 		PS> New-Logger | Add-SinkMSSqlServer TODO FILL_HERE | Start-Logger
 	#>
 
+	[OutputType([Serilog.LoggerConfiguration])]
 	[Cmdletbinding()]
 	param(
 		[Parameter(Mandatory = $true, ValueFromPipeline = $true)]
